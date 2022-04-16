@@ -25,7 +25,7 @@ function updateTime(){
     currentHr=12;
   }
   else if (currentHr >= 13 ){  //convert military hours at and over 1300 (1pm) to regular hours by subtracting 12. 
-    currentHr -=12;
+    currentHr -=0;
   }
 	drawSeconds();
 	drawMinutes();
